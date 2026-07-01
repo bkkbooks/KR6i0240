@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6i0240/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0240/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 陰持入經
+  identifiers:
+    krp: KR6i0240
+    cbeta: T15n0603
+    cbeta_old_id: T15n0603
+    authorityid: CA0003783
+    json_key: T0603
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0603.xml
+    old_id: T15n0603
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0240_000-T.yaml, hash: 'sha256:fefbe1f194e4f471d1925320fadb9542d1357f2ec9cb862489229fe6b615f410'}
+  - {seq: 1, filename: KR6i0240_001-T.yaml, hash: 'sha256:9aae7f45afe9dfc9240b62fcd8cafa429a07034e38cc807c0b1e090f89e6da7e'}
+  - {seq: 2, filename: KR6i0240_002-T.yaml, hash: 'sha256:e46e2a8778a674b29504bd18de6775180794222dc40ae3f97e3141d9f742898d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0240_000-T.markers.yaml, hash: 'sha256:dc11f656de7e10253eaf5fbfd9d7252151c9b595b716c001be258bb96f953257'}
+  - {seq: 1, role: markers, filename: assets/KR6i0240_001-T.markers.yaml, hash: 'sha256:3447f91f6b71dc959735a5a8814648fe4e664cc178747b8dd71a525f7329e91c'}
+  - {seq: 2, role: markers, filename: assets/KR6i0240_002-T.markers.yaml, hash: 'sha256:f0bf91d1d39b191d909853f2906538213679d265c87212f4dd0ccbecfc9654c4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0240_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4138
+  label: 陰持入經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0240_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 5111
+  label: 陰持入經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0240_T_002-mulu-1
+    span:
+    - body
+    - 4708
+    - 4708
+  label: （附文）佛說慧印百六十三定解
+  type: mulu
+  level: 1
+hash: sha256:7046efe52d03721e34860dddbfc87248e1ab49942f338a098993d8b19e710b90

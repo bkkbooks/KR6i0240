@@ -1,0 +1,76 @@
+canonical_identifier: bkk:krp/KR6i0240/v1
+canonical_location: https://kanripo.org/bkk/KR6i0240/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 陰持入經
+  identifiers:
+    alt_id:
+    - T15n0603
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0603.xml
+    old_id: T15n0603
+  edition:
+    short: bkk
+editions:
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 明
+  label: 明
+  source_xml_id: wit5
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0240_000.yaml, hash: 'sha256:fefbe1f194e4f471d1925320fadb9542d1357f2ec9cb862489229fe6b615f410'}
+  - {seq: 1, filename: KR6i0240_001.yaml, hash: 'sha256:44d73fb3b10c0b5a689c951e8a0c4ea18f8e2bcd4b600044bbb72ef59fc42c1d'}
+  - {seq: 2, filename: KR6i0240_002.yaml, hash: 'sha256:8ce25523cfdd48c6bd7e765ab58b1ef117281f5a85bb68bc118c9547104b5b0e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0240_001.markers.yaml, hash: 'sha256:5441ba50e8b01a1d2f1481568fc103d85c3800560c7db1999f873dfab50e0fc4'}
+  - {seq: 2, role: markers, filename: assets/KR6i0240_002.markers.yaml, hash: 'sha256:56b84bb72070ac7b2f1f0a02206f05fa134ddad395c1f896ec84ffc98f152819'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0240_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4138
+  label: 陰持入經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0240_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 5111
+  label: 陰持入經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0240_T_002-mulu-1
+    span:
+    - body
+    - 4708
+    - 4708
+  label: （附文）佛說慧印百六十三定解
+  type: mulu
+  level: 1
+hash: sha256:e851e1c13df7e0f114c436f911151b671e45a8486aad06a699f9edfd12eaa08b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

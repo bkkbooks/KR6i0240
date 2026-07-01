@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0240/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 陰持入經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0603.xml
+    old_id: T15n0603
+hash: sha256:fefbe1f194e4f471d1925320fadb9542d1357f2ec9cb862489229fe6b615f410
